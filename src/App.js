@@ -48,9 +48,9 @@ class App extends Component {
             <img src={pirateImage} alt="Pirate" className="pirate-title" />
             <p>Em breve, novidades incríveis! Fique por dentro entrando no nosso Discord</p>
           </div>
-          <a onClick={this.handleDiscordClick}>
+          <button onClick={this.handleDiscordClick}>
             <div className="cta">DISCORD</div>
-          </a>
+          </button>
           {this.state.showImage && 
  <img 
  src={discordImage} // Usa a imagem importada diretamente
