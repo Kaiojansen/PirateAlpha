@@ -5,7 +5,6 @@
   "homepage": "https://arkn98.github.io/coming-soon",
   "dependencies": {
     "react": "^18.2.0",
-    "react-background-video-player": "^1.1.8",
     "react-dom": "^18.2.0"
   },
   

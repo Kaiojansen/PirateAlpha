@@ -1,17 +1,18 @@
-import React, { useState } from 'react';
+import React, { Component } from 'react';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
 import "./App.css";
+import VideoBackground from './VideoBackground'; // Import the custom video background component
 import oceanVideo from './ocean.mp4'; 
 import logoImage from './logo.png';
 import pirateImage from './pirate.png';
-import discordImage from './image.png'; // Caminho da imagem
-import discordMusic from './music.mp3'; // Caminho da música
+import discordImage from './image.png';
+import discordMusic from './music.mp3';
 
-class App extends React.Component {
+class App extends Component {
   state = {
     showImage: false,
-  }
+  };
 
   handleDiscordClick = () => {
     this.setState({ showImage: true });
@@ -20,15 +21,13 @@ class App extends React.Component {
 
     setTimeout(() => {
       window.open('https://discord.gg/piratealpha', '_blank');
-    }, 4000); // Ajuste o atraso conforme necessário
-  }
+    }, 4000);
+  };
 
-  render = () => {
+  render() {
     return (
       <div className="card">
-        <video className="video-background" autoPlay loop muted>
-          <source src={oceanVideo} type="video/mp4" />
-        </video>
+        <VideoBackground src={oceanVideo} />
         <div className="header">
           <div className="logo">
             <a href=".">
