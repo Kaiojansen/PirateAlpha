@@ -60,9 +60,7 @@ class App extends Component {
 
 }
         </div>
-        <div className="footer">
-          <span>MADE BY <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">BOOLISH</a> </span>
-        </div>
+
       </div>
     );
   }
