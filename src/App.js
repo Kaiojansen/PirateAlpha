@@ -38,7 +38,7 @@ class App extends Component {
             <a href="https://twitter.com/PirateAlphaNFT" title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
             </a>
-            <a href="https://app.gitbook.com/o/K05ZnjTPinpcDjcZ45Ez/s/g8JjkvOMJeizGWjQyTBY/" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="https://alphadeployer.gitbook.io/copy-of-alphatools/alphatools-toolkit/pirate-alpha-dao/introductions" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
             </a>
           </div>
