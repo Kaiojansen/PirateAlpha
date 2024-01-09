@@ -46,10 +46,10 @@ class App extends Component {
         <div className="content">
           <div className="title-holder">
             <img src={pirateImage} alt="Pirate" className="pirate-title" />
-            <p>Em breve, novidades incríveis! Fique por dentro entrando no nosso Discord</p>
+            <p>Coming Soon!</p>
           </div>
           <button onClick={this.handleDiscordClick}>
-            <div className="cta">DISCORD</div>
+            <div className="button2 cta">DISCORD</div>
           </button>
           {this.state.showImage && 
  <img 
