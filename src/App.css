@@ -132,6 +132,9 @@ a.underlined:hover {
   border-bottom: 1px dotted #fff;
 }
 
+button.underlined:hover {
+  border-bottom: 1px dotted #fff;
+}
 .video-background {
   position: fixed;
   right: 0;
