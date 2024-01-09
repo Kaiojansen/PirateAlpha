@@ -35,10 +35,10 @@ class App extends Component {
             </a>
           </div>
           <div className="social">
-            <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/PirateAlphaNFT" title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
             </a>
-            <a href="https://github.com/arkn98/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.gitbook.com/o/K05ZnjTPinpcDjcZ45Ez/s/g8JjkvOMJeizGWjQyTBY/" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
             </a>
           </div>
